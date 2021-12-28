@@ -15,25 +15,33 @@ body {
 }
 
 .button1 {
-    width: 109px;
+    width: 108px;
     height: 38px;
-    padding: 9px 15px;
+    padding: 8px 16px;
     background: #FFEE99;
     border: 1px solid #E6E4E1;
     border-radius: 4px 0px 0px 4px;
 }
 
-.button2 {
-    width: 113px;
+.btn {
+    padding: 8px 16px;
     height: 38px;
-    padding: 9px 15px;
     border: 1px solid #E6E4E1;
 }
 
+.button2 {
+    width: 112px;
+    border-left: none;
+    border-right: none;
+}
+
 .button3 {
-    width: 155px;
-    height: 38px;
-    padding: 9px 15px;
-    border: 1px solid #E6E4E1;
+    width: 154px;
     border-radius: 0px 4px 4px 0px;
+}
+
+@media (max-width: 380px) {
+    body {
+        display: none;
+    }
 }
