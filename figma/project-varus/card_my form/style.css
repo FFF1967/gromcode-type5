@@ -15,8 +15,6 @@ body {
 }
 
 .btn {
-    width: 264px;
-    height: 38px;
     padding: 8px 16px;
     height: 38px;
     border: 1px solid #FF6502;
@@ -25,20 +23,28 @@ body {
 }
 
 .button1 {
+    width: 264px;
+    height: 38px;
     padding: 10px, 16px, 10px, 16px;
     background: #E5E5E5;
 }
 
 .button2 {
+    width: 264px;
+    height: 38px;
     border-left: none;
     border-right: none;
 }
 
 .button3 {
+    width: 264px;
+    height: 38px;
     border-radius: 0px 4px 4px 0px;
 }
 
 .button4 {
+    width: 264px;
+    height: 38px;
     padding: 10px, 16px, 10px, 16px;
     background: #E5E5E5;
 }
