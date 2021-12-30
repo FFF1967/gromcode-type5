@@ -39,9 +39,3 @@ body {
     width: 154px;
     border-radius: 0px 4px 4px 0px;
 }
-
-@media (max-width: 380px) {
-    body {
-        display: none;
-    }
-}
