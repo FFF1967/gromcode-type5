@@ -1,45 +1,47 @@
-html {
-    box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.btn {
-    border: 1px solid #FF6502;
-    border-radius: 4px;
-    margin-top: 14px;
-}
-
-.button1 {
-    width: 264px;
-    height: 38px;
-    padding: 64px, 10px, 10px, 64px;
-    background: #E5E5E5;
-}
-
-.button2 {
-    width: 264px;
-    height: 38px;
-}
-
-.button3 {
-    width: 264px;
-    height: 38px;
-}
-
-.button4 {
-    width: 264px;
-    height: 38px;
-    padding: 10px, 16px, 10px, 16px;
-    background: #E5E5E5;
-}
+    html {
+        box-sizing: border-box;
+    }
+    
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+    }
+    
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .btn {
+        border: 1px solid #FF6502;
+        border-radius: 4px;
+        margin-top: 14px;
+    }
+    
+    .button1 {
+        width: 264px;
+        height: 38px;
+        padding: 64px, 10px, 10px, 64px;
+        background: #ffffff;
+    }
+    
+    .button2 {
+        width: 264px;
+        height: 38px;
+        background: #ffffff;
+    }
+    
+    .button3 {
+        width: 264px;
+        height: 38px;
+        background: #ffffff;
+    }
+    
+    .button4 {
+        width: 264px;
+        height: 38px;
+        padding: 10px, 16px, 10px, 16px;
+        background: #ffffff;
+    }
