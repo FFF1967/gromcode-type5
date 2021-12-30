@@ -20,6 +20,13 @@
         background: #FFFFFF;
     }
     
+    .button1 {
+        width: 128PX;
+        height: 32px;
+        background: #FFFFFF;
+        border: 1px solid #FF6502;
+    }
+    
     body {
         display: flex;
         align-items: center;
