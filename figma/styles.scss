@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: Helvetica Neue, sans-serif;
+}
+.btn {
+  border-radius: 4px;
+  border: none;
+}
+.btn-primary {
+  color: #ffffff;
+  background-color: #FF6502;
+  border-color: #FF6502;
+}
+.btn-primary:focus, .btn-primary:hover:not(:disabled) {
+  border-color: #FF741B;
+  background-color: #FF741B;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  border-color: #FF741B;
+  background-color: #FF741B;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+.text-center {
+  padding-top: 8px;
+}
+
+.btn-secondary {
+  color: #4d4d4d;
+  border: 1px solid #B3B3B3;
+  background-color: transparent;
+}
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
+.show > .btn-secondary.dropdown-toggle,
+.btn-secondary:focus,
+.btn-secondary:hover:not(:disabled) {
+  background-color: #f1f1f1;
+  border: 1px solid #999999;
+  color: #4d4d4d;
+}
+
+.btn-primary-inversion {
+  color: #FF6502;
+  border: 1px solid #FF6502;
+  background-color: transparent;
+  &:disabled {
+    opacity: .5;
+  }
+}
+.btn-primary-inversion:focus:not(:disabled),
+.btn-primary-inversion:hover:not(:disabled) {
+  background-color: #FFF0E6;
+  color: #FF7B26;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
