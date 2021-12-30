@@ -21,16 +21,15 @@
         width: 264px;
         height: 38px;
         color: #FF6502;
+        background: #ffffff;
     }
     
     .button1 {
         padding: 64px, 10px, 10px, 64px;
-        background: #ffffff;
         margin-bottom: 14px;
     }
     
     .button2 {
-        background: #ffffff;
         margin-bottom: 14px;
     }
     
@@ -42,8 +41,4 @@
         background: #FFC29B;
         margin-bottom: 14px;
         color: #ffffff;
-    }
-    
-    .button4 {
-        background: #ffffff;
     }
