@@ -1,0 +1,32 @@
+    html {
+        box-sizing: border-box;
+    }
+    
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+    }
+    
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .btn {
+        border: 1px solid #FF6502;
+        border-radius: 4px;
+        width: 264px;
+        height: 38px;
+        color: #FF6502;
+        background: #ffffff;
+        margin-bottom: 14px;
+    }
+    
+    .button3 {
+        border: 1px solid #FFC29B;
+        background: #FFC29B;
+        color: #ffffff;
+    }
