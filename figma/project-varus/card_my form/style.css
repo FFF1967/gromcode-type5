@@ -15,24 +15,18 @@
         flex-direction: column;
     }
     
-    .btn,
-    btn3 {
+    .btn {
         border: 1px solid #FF6502;
         border-radius: 4px;
         width: 264px;
         height: 38px;
         color: #FF6502;
         background: #ffffff;
-        padding: none;
         margin-bottom: 14px;
     }
     
     .button3 {
-        width: 264px;
-        height: 38px;
         border: 1px solid #FFC29B;
-        border-radius: 4px;
         background: #FFC29B;
-        margin-bottom: 14px;
         color: #ffffff;
     }
