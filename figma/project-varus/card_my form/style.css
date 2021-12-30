@@ -1,4 +1,4 @@
-    html {
+    /*html {
         box-sizing: border-box;
     }
     
@@ -6,12 +6,13 @@
     *::before,
     *::after {
         box-sizing: inherit;
-    }
+    }*/
     
     body {
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
     }
     
     .btn {
@@ -25,6 +26,7 @@
         padding: 64px, 10px, 10px, 64px;
         background: #ffffff;
         margin-bottom: 14px;
+        color: #FF6502;
     }
     
     .button2 {
@@ -32,18 +34,20 @@
         height: 38px;
         background: #ffffff;
         margin-bottom: 14px;
+        color: #FF6502;
     }
     
     .button3 {
         width: 264px;
         height: 38px;
-        background: #ffffff;
+        background: #FFC29B;
         margin-bottom: 14px;
+        color: #ffffff;
     }
     
     .button4 {
         width: 264px;
         height: 38px;
-        padding: 10px, 16px, 10px, 16px;
         background: #ffffff;
+        color: #FF6502;
     }
