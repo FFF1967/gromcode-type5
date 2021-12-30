@@ -20,19 +20,18 @@
         border-radius: 4px;
         width: 264px;
         height: 38px;
+        color: #FF6502;
     }
     
     .button1 {
         padding: 64px, 10px, 10px, 64px;
         background: #ffffff;
         margin-bottom: 14px;
-        color: #FF6502;
     }
     
     .button2 {
         background: #ffffff;
         margin-bottom: 14px;
-        color: #FF6502;
     }
     
     .button3 {
@@ -47,5 +46,4 @@
     
     .button4 {
         background: #ffffff;
-        color: #FF6502;
     }
