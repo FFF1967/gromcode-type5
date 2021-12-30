@@ -17,7 +17,6 @@
     .btn {
         border: 1px solid #FF6502;
         border-radius: 4px;
-        margin-top: 14px;
     }
     
     .button1 {
@@ -25,18 +24,21 @@
         height: 38px;
         padding: 64px, 10px, 10px, 64px;
         background: #ffffff;
+        margin-bottom: 14px;
     }
     
     .button2 {
         width: 264px;
         height: 38px;
         background: #ffffff;
+        margin-bottom: 14px;
     }
     
     .button3 {
         width: 264px;
         height: 38px;
         background: #ffffff;
+        margin-bottom: 14px;
     }
     
     .button4 {
