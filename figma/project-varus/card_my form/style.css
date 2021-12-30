@@ -15,7 +15,8 @@
         flex-direction: column;
     }
     
-    .btn {
+    .btn,
+    btn3 {
         border: 1px solid #FF6502;
         border-radius: 4px;
         width: 264px;
