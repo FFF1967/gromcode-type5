@@ -40,6 +40,8 @@
     .button3 {
         width: 264px;
         height: 38px;
+        border: 1px solid #FF6502;
+        border-radius: 4px;
         background: #FFC29B;
         margin-bottom: 14px;
         color: #ffffff;
