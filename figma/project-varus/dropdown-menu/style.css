@@ -27,6 +27,7 @@ body {
 hr {
     border: none;
     background-color: #E5E4E1;
+    width: 200px;
     height: 1px;
 }
 
