@@ -18,6 +18,8 @@
         width: 168px;
         height: 32px;
         background: #FFFFFF;
+        display: flex;
+        align-items: center;
     }
     
     .button1 {
