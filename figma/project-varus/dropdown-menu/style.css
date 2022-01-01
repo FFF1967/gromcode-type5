@@ -19,6 +19,17 @@ body {
     color: #FF6502;
 }
 
+.divider {
+    width: 200px;
+    height: 1px;
+}
+
+hr {
+    border: none;
+    background-color: #E5E4E1;
+    height: 1px;
+}
+
 .text2 {
     margin-bottom: 12px;
 }
