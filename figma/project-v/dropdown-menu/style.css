@@ -19,15 +19,16 @@ body {
     color: #FF6502;
 }
 
-.dm,
-hr {
+.dm {
     margin-bottom: 12px;
     font-size: 14px;
 }
 
 hr {
     border: none;
+    margin: 0px 0px 12px 0px;
     background-color: #E5E4E1;
+    color: #E5E4E1;
     width: 200px;
     height: 1px;
 }
