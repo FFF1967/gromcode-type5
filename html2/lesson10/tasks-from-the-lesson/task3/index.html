@@ -12,25 +12,65 @@
             box-sizing: border-box;
         }
         
-        .head {
+        .header {
             height: 40px;
             background-color: yellow;
         }
         
-        .foot {
+        .footer {
             height: 40px;
             background-color: green;
+        }
+        
+        .aside {
+            width: 200px;
+            background-color: gray;
+        }
+        
+        .sec {
+            background-color: pink;
         }
     </style>
 </head>
 
 <body>
-    <header class="head">
+    <header class="header">
+        <nav>
+            <ul>
+                <li>About</li>
+                <li>Products</li>
+                <li>Contacts</li>
+
+            </ul>
+        </nav>
 
     </header>
+    <main>
+        <section class="sec">
+            <h2>
+                I can use Flexbox!!!
+            </h2>
+        </section>
 
-    <footer class="foot">
+        <aside class="aside">
+            <h2>
+                News
+            </h2>
+            <ul>
+                <li>News 1</li>
+                <li>News 2</li>
+                <li>News 3</li>
 
+            </ul>
+
+        </aside>
+
+    </main>
+
+
+
+    <footer class="footer">
+        <span>Footer</span>
     </footer>
 
 </body>
