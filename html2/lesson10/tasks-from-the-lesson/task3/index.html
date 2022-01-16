@@ -15,11 +15,18 @@
         .header {
             height: 40px;
             background-color: yellow;
+            display: flex;
+            align-items: center;
         }
         
         .footer {
             height: 40px;
             background-color: green;
+            display: flex;
+        }
+        
+        .footer__text {
+            margin: auto;
         }
         
         .navigation {
@@ -32,57 +39,75 @@
             margin-right: 10px;
         }
         
-        .aside {
+        .news {
             width: 200px;
             background-color: gray;
         }
         
-        .sec {
+        .dashboard {
+            display: flex;
             background-color: pink;
+            flex-grow: 1;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .page {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        
+        .content {
+            flex-grow: 1;
+            display: flex;
         }
     </style>
 </head>
 
 <body>
-    <header class="header">
-        <nav>
-            <ul class="navigation">
-                <li class="navigation__item">About</li>
-                <li class="navigation__item">Products</li>
-                <li class="navigation__item">Contacts</li>
-
-            </ul>
-        </nav>
-
-    </header>
-    <main>
-        <section class="sec">
-            <h2>
-                I can use Flexbox!!!
-            </h2>
-        </section>
-
-        <aside class="aside">
-            <h2>
-                News
-            </h2>
-            <ul>
-                <li>News 1</li>
-                <li>News 2</li>
-                <li>News 3</li>
-
-            </ul>
-
-        </aside>
-
-    </main>
+    <div class="page">
 
 
+        <header class="header">
+            <nav>
+                <ul class="navigation">
+                    <li class="navigation__item">About</li>
+                    <li class="navigation__item">Products</li>
+                    <li class="navigation__item">Contacts</li>
 
-    <footer class="footer">
-        <span>Footer</span>
-    </footer>
+                </ul>
+            </nav>
 
+        </header>
+        <main class="content">
+            <section class="dashboard">
+                <h2>
+                    I can use Flexbox!!!
+                </h2>
+            </section>
+
+            <aside class="news">
+                <h2>
+                    News
+                </h2>
+                <ul>
+                    <li>News 1</li>
+                    <li>News 2</li>
+                    <li>News 3</li>
+
+                </ul>
+
+            </aside>
+
+        </main>
+
+
+
+        <footer class="footer">
+            <span class="footer__text">Footer</span>
+        </footer>
+    </div>
 </body>
 
 </html>
