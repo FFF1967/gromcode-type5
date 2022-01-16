@@ -22,6 +22,16 @@
             background-color: green;
         }
         
+        .navigation {
+            margin: 0;
+            display: flex;
+            list-style-type: none;
+        }
+        
+        .navigation__item {
+            margin-right: 10px;
+        }
+        
         .aside {
             width: 200px;
             background-color: gray;
@@ -36,10 +46,10 @@
 <body>
     <header class="header">
         <nav>
-            <ul>
-                <li>About</li>
-                <li>Products</li>
-                <li>Contacts</li>
+            <ul class="navigation">
+                <li class="navigation__item">About</li>
+                <li class="navigation__item">Products</li>
+                <li class="navigation__item">Contacts</li>
 
             </ul>
         </nav>
