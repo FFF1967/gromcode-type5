@@ -40,11 +40,6 @@
             margin-right: 16px;
         }
         
-        .news {
-            width: 200px;
-            background-color: gray;
-        }
-        
         .dashboard {
             display: flex;
             background-color: pink;
@@ -62,6 +57,29 @@
         .content {
             flex-grow: 1;
             display: flex;
+        }
+        
+        .sidebar {
+            min-width: 200px;
+            background-color: gray;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .news {}
+        
+        .sidebar h2 {
+            margin-top: 16px;
+            margin-bottom: 16px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .news__item {
+            margin: 0;
+            padding: 0;
+            margin-left: 16px;
+            list-style-type: none;
         }
     </style>
 </head>
@@ -88,14 +106,14 @@
                 </h2>
             </section>
 
-            <aside class="news">
+            <aside class="sidebar">
                 <h2>
                     News
                 </h2>
-                <ul>
-                    <li>News 1</li>
-                    <li>News 2</li>
-                    <li>News 3</li>
+                <ul class="news">
+                    <li class="news__item">News 1</li>
+                    <li class="news__item">News 2</li>
+                    <li class="news__item">News 3</li>
 
                 </ul>
 
