@@ -1,5 +1,10 @@
+body {
+    display: flex;
+}
+
 .block {
     height: 300px;
+    width: 100vh;
 }
 
 .block_red {
