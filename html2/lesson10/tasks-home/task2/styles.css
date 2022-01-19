@@ -1,4 +1,6 @@
-body {}
+* {
+    box-sizing: border-box;
+}
 
 header {
     display: flex;
@@ -6,8 +8,8 @@ header {
 }
 
 .articles-list {
-    box-sizing: border-box;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .article {
