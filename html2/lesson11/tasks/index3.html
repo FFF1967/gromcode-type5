@@ -7,8 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
+        
         .dropdown {
-            position: absolute;
+            position: relative;
             margin: 16px;
             background-color: darkgreen;
             color: white;
@@ -16,6 +20,7 @@
             padding: 8px;
             border-radius: 4px;
             height: 34px;
+            cursor: pointer;
         }
         
         .dropdown__list {
