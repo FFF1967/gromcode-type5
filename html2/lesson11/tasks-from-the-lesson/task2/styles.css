@@ -13,4 +13,6 @@
     margin: 16px;
 }
 
-.visible-text {}
+.visible-text {
+    overflow: visible;
+}
