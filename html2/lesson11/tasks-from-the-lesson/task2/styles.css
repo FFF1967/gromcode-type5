@@ -16,3 +16,20 @@
 .visible-text {
     overflow: visible;
 }
+
+.cropped {
+    overflow: hidden;
+}
+
+.both-scrolls {
+    overflow: scroll;
+}
+
+.vertical-scroll {
+    overflow-y: scroll;
+}
+
+.both-scrolls,
+.vertical-scroll {
+    cursor: all-scroll;
+}
