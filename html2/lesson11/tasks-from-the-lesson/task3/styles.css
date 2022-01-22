@@ -19,6 +19,7 @@
     min-width: 120px;
     display: none;
     position: absolute;
+    top: 40px;
 }
 
 .menu-item {
