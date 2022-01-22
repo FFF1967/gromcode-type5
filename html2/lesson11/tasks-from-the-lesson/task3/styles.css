@@ -1,5 +1,6 @@
 .dropdown {
     margin: 16px;
+    position: relative;
 }
 
 .menu-button {
@@ -19,7 +20,7 @@
     min-width: 120px;
     display: none;
     position: absolute;
-    top: 40px;
+    top: 34px;
 }
 
 .menu-item {
