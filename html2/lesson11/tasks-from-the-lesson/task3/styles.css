@@ -5,6 +5,7 @@
 .dropdown {
     margin: 16px;
     position: relative;
+    height: 34px;
 }
 
 .menu-button {
